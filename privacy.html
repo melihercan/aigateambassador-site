@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Gatehouse Privacy Policy</title>
+<meta name="description" content="What AI Gatehouse does with the data of residents, visitors and community managers.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --rule: #e3e3e6;
+    --accent: #0b63ce;
+    --panel: #f5f6f8;
+    --mark: #fff0a8;
+    --mark-text: #1d1d1f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214;
+      --text: #ececef;
+      --muted: #a4a7ad;
+      --rule: #2c2c31;
+      --accent: #6aa8ff;
+      --panel: #1b1b1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--rule); }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  a { color: var(--accent); }
+  mark { background: var(--mark); color: var(--mark-text); padding: 0 3px; }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .summary { background: var(--panel); border-radius: 12px; padding: 16px 20px; }
+  .summary p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AI Gatehouse Privacy Policy</h1>
+  <p class="meta">Effective November 6, 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> AI Gatehouse answers the gate of a gated community. It keeps the
+    resident list, guest passes and a record of visits in the community's own cloud, so that
+    residents can answer visitors from their phones. Number plates and face data stay on the
+    device at the gate and are not sent to that cloud. What a visitor says at the kiosk goes to an
+    AI service so that the gate can reply. We do not sell data, show advertising or use analytics
+    in the app.</p>
+  </div>
+
+  <h2>Who is responsible</h2>
+  <p>AI Gatehouse is made by Melih Ercan, an individual developer in Türkiye ("we"). You can reach
+  us at <a href="mailto:aigatehouse.support@gmail.com">aigatehouse.support@gmail.com</a>.</p>
+  <p>Each community (usually its homeowners' association) decides to use AI Gatehouse, adds its
+  residents and sets its gate rules. It is responsible for the data of its residents and visitors,
+  and we handle that data on its behalf. Each community has its own separate cloud and database.</p>
+
+  <h2>Residents</h2>
+  <p>The community manager enters, and the community's cloud keeps:</p>
+  <ul>
+    <li>your name, unit and address, and your email and phone number if the manager adds them;</li>
+    <li>for each phone you pair: the name the phone gives itself (for example "Maria's iPhone"),
+      when it was paired and when it was last in touch, and a push token, which is how a
+      notification reaches it when the app is closed;</li>
+    <li>the guest passes you or the manager make: the guest's name, the code and when it is valid;</li>
+    <li>your visits: a short summary of who came and why, the times, and your answer.</li>
+  </ul>
+  <p>The gate's device keeps a copy of the resident list and valid passes so that it can work when
+  the internet is down. It may also keep a list of residents' number plates.</p>
+
+  <h2>Visitors</h2>
+  <ul>
+    <li><strong>Talking to the kiosk.</strong> The kiosk is an AI voice. What you say, and the
+      resident details it needs to find the person you are visiting, go to the AI service the
+      community chose, while you are talking: xAI (Grok) by default, Anthropic (Claude) as an
+      alternative, or a model running on the gate's device, in which case nothing leaves it. We do
+      not record your voice. The written conversation exists only in the gate device's memory and
+      is not saved to a file. The AI service handles what it receives under its own terms.</li>
+    <li><strong>The summary.</strong> The kiosk writes one or two sentences about who you are and
+      why you came, for the resident. That summary is kept in the visit record, and the manager can
+      see it too.</li>
+    <li><strong>Guest passes.</strong> If a resident made you a pass, your name is kept with it.</li>
+    <li><strong>Your number plate.</strong> Where the gate has a plate camera, it reads the plate of
+      every vehicle that comes to the gate. The plate text, time and how sure the reading was are
+      kept on the gate's device for 7 days, unless the community sets another period. A community
+      can also choose to keep the picture behind a plate reading, for the same period.</li>
+  </ul>
+
+  <h2>Face recognition</h2>
+  <p>Face recognition is off unless a community turns it on, and it is not used everywhere. Where
+  it is on, a camera at a pedestrian door checks the faces that come to it against a list of people
+  enrolled by the community. The community must enrol only people who have agreed. The list holds
+  a numeric template of each face, not a photo, and it stays on the gate's device. A face that does
+  not match is not added to any list. The gate's log keeps the result of each check for 7 days.</p>
+
+  <h2>Community managers</h2>
+  <p>Managers sign in to the portal with a Microsoft account. Microsoft handles the sign-in and
+  tells the portal who you are and that you are allowed in. Alerts about the gate are emailed to the
+  contacts the community gave, through Microsoft Azure.</p>
+
+  <h2>The phone app</h2>
+  <ul>
+    <li><strong>Camera:</strong> only to scan the pairing QR code, and only when you press Scan. The
+      code is read on your phone.</li>
+    <li><strong>Notifications:</strong> to tell you someone is at the gate. On Android the app can
+      also ring over the lock screen, like a call.</li>
+    <li>The app keeps its sign-in token in the phone's secure storage. It contains no advertising,
+      analytics or crash-reporting code.</li>
+  </ul>
+
+  <h2>Who else handles the data</h2>
+  <ul>
+    <li><strong>Microsoft Azure</strong> hosts each community's cloud and database, in
+      the United States. It also keeps technical logs of requests
+      and errors, for 30 days.</li>
+    <li><strong>Google, Apple and Microsoft</strong> deliver notifications to phones. A notification
+      carries the visitor summary and the community's name.</li>
+    <li><strong>xAI or Anthropic</strong>, as described under Visitors.</li>
+    <li><strong>The community</strong>: its managers can see residents, passes, phones and visits.</li>
+  </ul>
+  <p>We do not sell personal data or use it for advertising. We may give it to authorities only
+  when the law requires it.</p>
+
+  <h2>How long data is kept</h2>
+  <ul>
+    <li>The gate's event log, with plate readings and face check results, and any plate pictures:
+      7 days, unless the community sets another period.</li>
+    <li>Visit records and alerts: 12 months.</li>
+    <li>Guest passes: 30 days after they end.</li>
+    <li>A paired phone and its push token: until you sign out of the app or the manager removes the
+      phone. Signing out removes both at once.</li>
+    <li>Resident details: until the manager removes you, which also removes your phones, passes and
+      visit records.</li>
+  </ul>
+  <p>Database backups are kept for 7 days. When a community stops using AI Gatehouse, its
+  cloud and database are deleted within 30 days, and their backups expire within 7 days after that.</p>
+
+  <h2>Security</h2>
+  <p>Connections to the cloud are encrypted. Phone tokens, pairing codes and the gate's key are kept
+  only as hashes. Push service keys are kept in a key vault. No system is perfectly secure, and we
+  will tell the community if a breach affects its data.</p>
+
+  <h2>Children</h2>
+  <p>The app is for residents and managers, not for children under 13. A child may still come to a
+  gate, and the gate treats them as any other visitor.</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live, laws such as the GDPR, Türkiye's KVKK or US state privacy laws may
+  give you the right to see, correct or delete your personal data. Ask your community manager first,
+  as the community holds your data, or write to us at the address above and we will help.</p>
+
+  <h2>Changes</h2>
+  <p>If AI Gatehouse starts handling data differently, this page will be updated before that version
+  is released, and the date at the top will change.</p>
+</main>
+</body>
+</html>
